@@ -26,7 +26,8 @@ folder then use the command npm run watch to check the changes in your files and
 save them then remove the bootstrap extension from the bootstrap.js file in the
 js folder
 
-4) Now we need to create a github repository to push all files in, so go to the gitignore file and remove everything execept node_modules as we want the git repository to ignore this folder because it has many files and folders within intialize a repository using the command : git init the  push eveything to the master : git remote
-add origin https://github.com/Bassem-Moustafa-Kamel/phonebook
+4) Now we need to create a github repository to push all files in, so go to the gitignore file and remove everything execept node_modules as we want the git repository to ignore this folder because it has many files and folders within, so when anyone clone this repo all what needs to do is to install the node modules using npm install command then intialize a repository using the command : git init the  push eveything to the master : git remote add origin https://github.com/Bassem-Moustafa-Kamel/phonebook.git then add all files to the repo : git add .
 
-*/
+5) No its time to commit all the changes in the files to the repo
+
+ */
